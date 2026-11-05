@@ -1,0 +1,7 @@
+def nam_age():
+    name = input(f"What is your name: ")
+    age = int(input(f"What is your age: "))
+    return name,age
+
+name,age = nam_age()
+print(f"Hello {name} You are {age} years old.")
